@@ -79,9 +79,9 @@ def reverseStockSplit(years):
 
 def getdbData(query,*args):
 	host = 'localhost'
-	user = 'kzk'
+	user = '###'
 	pswd = os.environ.get('SETWORD')
-	db = 'stocks'
+	db = '###'
 	charset = 'utf8'	
 
 	connection = mysql.connect(user=user,passwd=pswd,host=host,db=db,charset=charset)
